@@ -16,8 +16,8 @@ st.sidebar.write("Built by **Vedha Rai**")
 st.sidebar.write("IBM HR Analytics Dataset")
 
 # Loading data and model
-df = pd.read_csv('/Users/vedharai/hr-attrition-predictor/data/hr_clean.csv')
-model = joblib.load('/Users/vedharai/hr-attrition-predictor/app/attrition_model.pkl')
+df = pd.read_csv('data/hr_clean.csv')
+model = joblib.load('app/attrition_model.pkl')
 #scaler = joblib.load('/Users/vedharai/hr-attrition-predictor/app/scaler.pkl')
 
 if page == "📊 Dashboard":
