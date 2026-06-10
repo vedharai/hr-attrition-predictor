@@ -2,14 +2,17 @@
 > Analysing key drivers of employee attrition.
 
 ## Problem Statement
+
 Companies lose a lot of time and money on hiring and training new employees due to employee attrition. In order to help HR teams take preventive measures, this project builds a machine learning model to forecast which employees are at risk of leaving after analysing the IBM HR Analytics dataset to determine the primary causes of employee turnover.
 
 ## Dataset
+
 - IBM HR Analytics Employee Attrition dataset
 - 1,470 employees, 35 features
 - Target variable: Attrition (Yes/No)
 
 ## Tech Stack
+
 - Python, pandas, numpy
 - scikit-learn (Logistic Regression, Random Forest)
 - imbalanced-learn (RandomUnderSampler)
@@ -40,11 +43,12 @@ Final app uses Random Forest with undersampling. Recall is prioritised over accu
 
 ## How to Run Locally
 
+```bash
 git clone https://github.com/vedharai/hr-attrition-predictor
 cd hr-attrition-predictor
 pip install -r requirements.txt
 streamlit run app/app.py
-
+```
 ## Live Demo
 Coming soon 
 
