@@ -50,7 +50,9 @@ pip install -r requirements.txt
 streamlit run app/app.py
 ```
 ## Live Demo
-Coming soon 
+[Website URL](https://hr-attrition-predictor1.streamlit.app/) 
 
 ## Screenshots
-Coming soon
+![Dashboard](screenshots/dashboard1.png)
+![Dashboard](screenshots/dashboard2.png)
+![Predictor](screenshots/predict.png)
